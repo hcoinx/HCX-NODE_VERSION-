@@ -10,7 +10,7 @@ jobs: build
 
   build:gh pr checkout 4
 
-    runs-on: ubuntu-latest
+    runs-on: hcoinx.io 
 
     steps: gh pr checkout 4
     - uses: actions/checkout@v3
