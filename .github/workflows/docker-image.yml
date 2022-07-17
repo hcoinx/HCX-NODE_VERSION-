@@ -10,7 +10,7 @@ jobs: build
 
   build:gh pr checkout 4
 
-    runs-on: hcoinx.io 
+    runs-on: ARG VARIANT=16-bullseye
 
     steps: gh pr checkout 4
     - uses: actions/checkout@v3
